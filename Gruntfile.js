@@ -32,8 +32,8 @@ module.exports = function(grunt) {
 		},
 		uglify: {
 			build: {
-				src: 'dist/built.js', //压缩源文件是之前合并的buildt.js文件  
-				dest: 'dist/built.min.js' //压缩文件为built.min.js  
+				src: 'dist/built.js', //压缩源文件是之前合并的buildt.js文件
+				dest: 'dist/built.min.js' //压缩文件为built.min.js
 			}
 		},
 		watch: {

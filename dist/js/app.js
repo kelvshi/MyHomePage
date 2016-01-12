@@ -10,12 +10,12 @@ define('app', function(require, exports, module) {
 		el:document.body,
 		events:{
 			"click h1": function(e){
-				console.log(e);
+				this.model.set("id",2);
 			},
 		},
 		initialize:function(options, param){
 			this.model = new myModel();
-			console.log(param);
+			console.log(this.model.get("id"));
 		}
 	});
 	app.mainView = new MainView();
