@@ -1172,3 +1172,9 @@ html,
 body {
   font: 12px/1.5 "Helvetica Neue", Helvetica, Arial, "Microsoft YaHei", "Hiragino Sans GB", SimSun, sans-serif;
 }
+
+/*定义一些公用产量*/
+html,
+body {
+  background: #dd;
+}
